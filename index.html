@@ -73,7 +73,11 @@
 					// Specify custom panels to be included in the menu, by
 					// providing an array of objects with 'title', 'icon'
 					// properties, and either a 'src' or 'content' property.
-					custom: false,
+					custom: [
+						{ title: 'Search', 
+						  icon: '<i class="fa fa-search" />', 
+						  src: 'search.html'}
+						],
 
 					// Specifies the themes that will be available in the themes
 					// menu panel. Set to 'false' to hide themes panel.
@@ -120,12 +124,6 @@
 					// when navigating using the keyboard. Note: this only takes 
 					// effect when both the 'keyboard' and 'sticky' options are enabled.
 					autoOpen: true,
-
-					/*custom: [
-						{ title: 'Search', 
-						  icon: '<i class="fa fa-search" />', 
-						  src: 'search.html'}
-						]*/
 				}
 			});
 		</script>
