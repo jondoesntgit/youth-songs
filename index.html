@@ -20,12 +20,17 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!-- Include Vue for reactive page rendering -->
+		<script src="https://unpkg.com/vue"></script>
+
+		<!-- Include jQuery for ajax -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+		<div id="app" class="reveal">
+			<div class="slides" v-html="html">
+
 			</div>
 		</div>
 
@@ -126,6 +131,23 @@
 					autoOpen: true,
 				}
 			});
+		</script>
+
+		<script>
+			var app = new Vue({
+			  el: '#app',
+			  data: {
+			    html: '<p>Loading...</p>',
+			  },
+
+			  ready() {
+			  	/*$.get('/songs/give-me-the-bible.html', function(response){
+			  		this.html = response
+			  	})*/
+			  	console.log('Ready');
+			  }
+			});
+
 		</script>
 	</body>
 </html>
