@@ -7,9 +7,9 @@
 	<div class="reveal">
 		<div class="slides">
 			{% for song in site.songs %}
-			<section>
+			<section data-menu-title="{{ song.title }}">
 				<h1>{{ song.title }}</h1>
-				{{ song.content | songify }}
+				{{ song.content}}
 				
 			</section>
 			{% endfor %}
