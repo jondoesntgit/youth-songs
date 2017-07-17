@@ -6,6 +6,17 @@ class Jekyll::Converters::Markdown::Songify
   def convert(content)
     content =  content.gsub(/\n/, "<br/>")
     content =  content.gsub(/(<br\/>){2,}/,"</section><section>")
-    return "<section>" + content + "</section>"
+
+    # Populate an array with paragraphs
+
+    # Detect chorus
+
+    # Interleave chorus between all following verses
+
+    # Join paragraphs with <section>
+
+    # Return the HTML verse
+
+    return content
   end
 end

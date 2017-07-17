@@ -7,10 +7,10 @@
 	<div class="reveal">
 		<div class="slides">
 			{% for song in site.songs %}
+			<section>
 			<section data-menu-title="{{ song.title }}">
-				<h1>{{ song.title }}</h1>
 				{{ song.content}}
-				
+			</section>
 			</section>
 			{% endfor %}
 		</div>
@@ -53,7 +53,7 @@ Reveal.initialize({
 
 		// Hide slides from the menu that do not have a title.
 		// Set to 'true' to only list slides with titles.
-		hideMissingTitles: false,
+		hideMissingTitles: true,
 
 		// Add markers to the slide titles to indicate the 
 		// progress through the presentation
