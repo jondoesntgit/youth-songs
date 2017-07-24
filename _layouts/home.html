@@ -6,13 +6,7 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			{% for song in site.songs %}
-			<section>
-			<section data-menu-title="{{ song.title }}">
-				{{ song.content}}
-			</section>
-			</section>
-			{% endfor %}
+			{{ site.title | checked }}
 		</div>
 	</div>
 </body>

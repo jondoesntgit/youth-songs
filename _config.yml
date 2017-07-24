@@ -25,7 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: Songify
+markdown: Raw #Songify
 theme: minima
 gems:
   - jekyll-feed
@@ -35,3 +35,6 @@ exclude:
 
 collections:
   - songs
+
+plugins_dir: _plugins
+

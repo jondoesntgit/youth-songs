@@ -4,7 +4,7 @@ key: C
 progression: vcvcvcvc
 ---
 
-480 years old was the prophet Noah
+[x] foo 480 years old was the prophet Noah
 when the Lord said build a boat.
 He said a flood would come and cover the earth.
 And only Noah would stay afloat.
