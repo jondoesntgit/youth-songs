@@ -1,7 +1,0 @@
----
-title: Sample
----
-
-Foo
-
-Bar

@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
 
+foo = String.new
+
+if !foo.empty?
+	print "Foo!"
+end
+
 lyrics = <<END
 
 >Chorus
