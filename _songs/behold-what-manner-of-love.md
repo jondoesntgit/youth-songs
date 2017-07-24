@@ -1,5 +1,5 @@
 ---
-title: 1 John 3:1 (Behold What Manner of Love)
+title: Behold What Manner of Love (1 John 3:1)
 key: E
 ---
 
