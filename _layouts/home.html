@@ -6,7 +6,12 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			{{ site.title | checked }}
+			{% for song in site.songs %}
+			<section>
+				{{ song.title | title_slide }}
+			  	{{song.content | songify: song.progression }}
+			</section>
+			{% endfor %}
 		</div>
 	</div>
 </body>
