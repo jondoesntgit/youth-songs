@@ -1,0 +1,7 @@
+---
+title: Sample
+---
+
+Foo
+
+Bar

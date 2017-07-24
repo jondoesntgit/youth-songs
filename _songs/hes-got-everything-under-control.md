@@ -1,10 +1,9 @@
 ---
 title: He's got everything under control
 key: C
-progression: vcvcvcvc
 ---
 
-[x] foo 480 years old was the prophet Noah
+480 years old was the prophet Noah
 when the Lord said build a boat.
 He said a flood would come and cover the earth.
 And only Noah would stay afloat.
@@ -29,13 +28,6 @@ because they knew what we all know,
 that the God who let that fire burn
 had everything under control.
 
-He’s got everything under control
-He’s got everything under control.
-The stars and the planets are in His hands.
-The wind and the rains at His command.
-You and I are part of His plan.
-He’s got everything under control.
-
 Daniel was invited to be on the menu
 At the meeting of the Lions club
 'cause he continued to pray three times a day 
@@ -44,13 +36,6 @@ When they threw him in, he begin to grin,
 Because he knew what we all know
 That the God who let those lions roar 
 Had everything under control
-
-He’s got everything under control
-He’s got everything under control.
-The stars and the planets are in His hands.
-The wind and the rains at His command.
-You and I are part of His plan.
-He’s got everything under control.
 
 Jonah had a whale of a problem 
 when he turned that revival down.
