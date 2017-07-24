@@ -1,5 +1,5 @@
 ---
-title:Books of the Old Testament
+title: Books of the Old Testament
 key: E
 ---
 

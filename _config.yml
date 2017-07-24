@@ -32,6 +32,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - docs
+
+destination: ./docs
 
 collections:
   - songs
